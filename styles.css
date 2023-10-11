@@ -1,12 +1,25 @@
 *{
-    margin: 0%;
-    padding: 0%;
-    border: 0cap;
+    
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     scroll-behavior: smooth;
 }
 
+header{
+    background-color: firebrick;
+}
+
+body{
+    margin: 0%;
+    padding: 0%;
+    border: 0cap;
+    background: linear-gradient(to bottom right, #c3ffe3, #eafff7);
+}
 h2{
+    
     font-size: x-large;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.container-p-4-pb-0{
+    border-style: ridge;
 }
