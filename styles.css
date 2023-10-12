@@ -4,21 +4,14 @@
     scroll-behavior: smooth;
 }
 
-header{
-    background-color: firebrick;
-}
 
 body{
-    margin: 0%;
+    margin: 10%;
     padding: 0%;
     border: 0cap;
     background: linear-gradient(to bottom right, rgb(207, 255, 255), #eafff7);
 }
-h2{
-    
-    font-size: x-large;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
+
 
 .container-p-4-pb-0{
     border-style: ridge;
