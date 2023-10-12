@@ -10,7 +10,7 @@
 <body 
 style="background-color: bisque; min-height: 800px;">
 <header>
-    <nav class="navbar bg-body-tertiary fixed-top">
+    <nav class="navbar bg-body-tertiary fixed-top border">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
             <img src="images\logoplace.png" alt="logoplace" width="45" height="45
@@ -44,7 +44,7 @@ style="background-color: bisque; min-height: 800px;">
         class="form-control" type="text"
         class="form-control" placeholder="Padilla" required>
         <div class="invalid-feedback">
-    Valid first name is required.
+        Valid first name is required.
         </div>
             </div>
         </div>
@@ -138,8 +138,9 @@ style="background-color: bisque; min-height: 800px;">
                </div>
             </div>
             </div>
-               <div class="checkout">
+               <div class="row g-3 ">
                <hr class="my-4">
+               <div class="col-md-6">
                 <h4 class="mb-3">Payments</h4>
 
                 <div class="form-check">
@@ -212,6 +213,80 @@ style="background-color: bisque; min-height: 800px;">
 
                     <button class="btn btn-outline-success btn-lg btn-block">Checkout</button>
                 </div>
+                <div class="col-md-6">
+                    <h4 class="mb-3">Payment</h4>
+    
+                    <div class="form-check">
+                        <input id="creditcard" type="radio" name="PaymentMethod"
+                    class="form-check-input" checked 
+                    required>
+                    <label for="creditcard">Credit/Debit Card</label>
+                    </div>
+    
+                    <div class="form-check">
+                        <input id="Paypal" type="radio" name="PaymentMethod"
+                    class="form-check-input" checked 
+                    required>
+                    <label for="Paypal">Paypal</label>
+                    </div>
+    
+                    <div class="row my-3 gy-3"></div>
+    
+                    <div class="row">
+                        <div class="col-md-6">
+                        <label for="fullName" class="form-label">
+                            Name on Card
+                        </label>
+                        <input id="fullName" type="text" 
+                        class="form-control">
+                        <small class="text-muted">
+                            Full name as displayed on card.
+                        </small>
+                            <div class="invalid-feedback">
+                                Name on card is required.
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+    
+                        <label for="cc-number"
+                        class="form-label">
+                            Credit Card number
+                        </label>
+                        <input type="text" class="form-control">
+                        <small class="text-muted">
+                             Full number on card.
+                        </small>
+                        
+    
+    
+                        </div>
+                        <div class="col-md-3">
+                            <label for="cc-expire" class="form-label">
+                                Expiration
+                            </label>
+                            <input id="cc-expire" type="text" 
+                            class="form-control">
+                            <div class="invalid-feedback">
+                                Expiration is required.
+                            </div>
+                            </div>
+                            <div class="col-md-3">
+                                <label for="cc-expire" class="form-label">
+                                    CVV
+                                </label>
+                                <input id="cc-expire" type="text" 
+                                class="form-control">
+                                <div class="invalid-feedback">
+                                    CVV is required.
+                                </div>
+                                </div>
+                        </div>
+    
+                        <hr class="my-2">
+    
+                        <button class="btn btn-outline-success btn-lg btn-block">Checkout</button>
+                    </div>
+            </div>
             </div>  
             
     </form>
