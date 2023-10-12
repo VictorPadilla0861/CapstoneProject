@@ -6,13 +6,19 @@
 
 
 body{
-    margin: 10%;
-    padding: 0%;
-    border: 0cap;
+  
+    border: 0c ap;
     background: linear-gradient(to bottom right, rgb(207, 255, 255), #eafff7);
 }
 
+footer {
+    margin-left: 5%;
+    margin-right: 5%;
+    
+}
 
 .container-p-4-pb-0{
     border-style: ridge;
+    padding-left: 50%;
+
 }
