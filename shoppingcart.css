@@ -11,7 +11,7 @@ body{
    .Cart-Container{
     margin: 0;
     padding: 0;
-    background: linear-gradient(to bottom right, #E3F0FF, #FAFCFF);
+    background: linear-gradient(to bottom right, rgb(207, 255, 255), #eafff7);
     display: flex;
     justify-content: center;
     align-items: center;
