@@ -6,38 +6,6 @@ body{
     display: flex;
     justify-content: first baseline;
     align-items: first baseline;
-    
-   }
-
-   .Cart-Container{
-    margin: 0;
-    padding: 0;
-    background: linear-gradient(to bottom right, rgb(207, 255, 255), #eafff7);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 70%;
-    height: 85%;
-    background-color: #ffffff;
-    border-radius: 20px;
-    box-shadow: 0px 25px 40px #1687d933;
-   }
-
-   .Header{
-    
-    margin: auto;
-    width: 90%;
-    height: 15%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-   }
-
-
-
-   .checkout {
-
-  
-    background-color: aquamarine;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
    }
