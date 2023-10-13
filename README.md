@@ -21,7 +21,7 @@ A registration page with fillable form and dropdown selectors
 ## Page 4
 A products page with a row of cards displaying products
 ### page-image
-![Alt text](Products-1.png)
+![Alt text](Products.png)
 ## Page 5
 A shopping cart page with payment fields and 
 ### page-image
