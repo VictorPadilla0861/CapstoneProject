@@ -23,5 +23,6 @@ A products page with a row of cards displaying products
 ### page-image
 ![Alt text](Products-1.png)
 ## Page 5
+A shopping cart page with payment fields and 
 ### page-image
 ![Alt text](shoppingcart.png)
