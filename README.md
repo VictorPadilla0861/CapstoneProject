@@ -9,15 +9,15 @@ A five page e-commerce website including a homepage, a login page, a registratio
 ## Page 1
 A homepage with a carousel of products listed and a footer
 ### page-image
-![imagename](homepage.png)
+![imagename](images/homepage.png)
 ## Page 2
 A login page that directs you back to the homepage
 ### page-image
-![Alt text](login.png)
+![Alt text](images/login.png)
 ## Page 3
 A registration page with fillable form and dropdown selectors
 ### page-image
-![Alt text](Registration.png)
+![Alt text](images/Registration.png)
 ## Page 4
 A products page with a row of cards displaying products
 ### page-image
@@ -25,4 +25,4 @@ A products page with a row of cards displaying products
 ## Page 5
 A shopping cart page with payment fields and 
 ### page-image
-![Alt text](shoppingcart.png)
+![Alt text](images/shoppingcart.png)
