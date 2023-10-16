@@ -86,3 +86,16 @@ A shopping cart page with payment fields and a numbered cart
                           </div>
 ### page-image
 ![Alt text](images/shoppingcart.png)
+
+## Authors
+
+* Victor Padilla
+
+-https://github.com/VictorPadilla0861
+
+
+## Ackowledgements
+
+* Bootsrap v5.3
+* Instructor : Remsey Milijard
+* My homies at Year-Up
