@@ -7,27 +7,25 @@
     <link rel="stylesheet" href="styles.css">
     <title>Registration</title>
 </head>
-<header>
-  <h1>
-  <nav class="navbar bg-body-tertiary fixed-top">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="homepage.html">
-          <img src="images\logoplace.png" alt="logoplace" width="45" height="45
-          " class="d-inline-block align-text-top"> Dice n' stuff
-        </a>
-        <form class="d-flex" role="search">
-          <input class="form-control me-2" type="search" placeholder="Rocks" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">Roll</button>
-        </form>
-      </div>
-    </nav>
-  </h1>
-  <h2 class="border" style="text-align: center; font-style: oblique; background-color: ghostwhite;">
-    Register below to create your free account and start rolling!
-  </h2>
-</header>
 
 <body style="background-color: azure; margin: auto; padding-top: 8%;">
+  <nav class="navbar bg-body-tertiary fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="homepage.html">
+        <img src="images/logoplace.png" alt="logoplace" width="45" height="45" class="d-inline-block align-text-top"> Dice n' stuff
+      </a>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Rocks" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Roll</button>
+      </form>
+    </div>
+  </nav>
+  <header>
+ 
+    <h2 class="border" style="text-align: center; font-style: oblique; background-color: ghostwhite;">
+      Register below to create your free account and start rolling!
+    </h2>
+  </header>
 
     <div class="container">
         <div class="form-row">
@@ -39,14 +37,14 @@
           </div>
           <div class="form-group col-md-6">
             <form>
-            <label for="inputPassword4">Password</label>
-            <input type="password" class="form-control" id="inputPassword4" placeholder="Password" required>
+            <label for="inputPassword">Password</label>
+            <input type="password" class="form-control" id="inputPassword" placeholder="Password" required>
         </form>
           </div>
           <div class="form-group col-md-6">
             <form>
-            <label for="inputPassword4">Confirm Password</label>
-            <input type="password" class="form-control" id="inputPassword4" placeholder="Confirm Password" required>
+            <label for="inputPassword1">Confirm Password</label>
+            <input type="password" class="form-control" id="inputPassword1" placeholder="Confirm Password" required>
         </form>
           </div>
         </div>
@@ -59,13 +57,13 @@
 
         <div class="row">
           <div class="form-group col-md-2">
-            <label for="inputCity">City</label>
-            <input type="text" class="form-control" id="inputCity">
+            <label for="inputCity1">City</label>
+            <input type="text" class="form-control" id="inputCity1">
         </div>
            
             <div class="form-group col-md-2">
-            <label for="inputCity">State</label>
-            <input type="text" class="form-control" id="inputCity">
+            <label for="inputState">State</label>
+            <input type="text" class="form-control" id="inputState">
             </div>
   
 
@@ -84,7 +82,7 @@
             
     
             <div class="form-check">
-                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault">
                 <label class="form-check-label" for="flexRadioDefault1">
                   Friend/ Family
                 </label>
@@ -96,16 +94,16 @@
                 </label>
               </div>
               <div class="form-check">
-                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault5">
                 <label class="form-check-label" for="flexRadioDefault1">
                   Google/ Search Engine
                 </label>
               </div>
               
               <div class="form-check">
-                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault3" checked>
                 <label class="form-check-label" for="flexRadioDefault2">
-                 Other <input>
+                 Other <input id="flexRadioDefault2">
                 </label>
               </div>
             </div>
@@ -118,7 +116,7 @@
           <div class="form-check">
             <input class="form-check-input" type="checkbox" id="gridCheck">
             <label class="form-check-label" for="gridCheck">
-                <div></div>
+              
               I would like to recieve the weekly newsletter
             </label>
           </div>
@@ -126,11 +124,7 @@
         <button type="submit" class="btn btn-sm .text-nowrap btn-outline-success">Register</button>
 
 
-        <div class="container d-flex flex-column">
-
-        <div class="flex-container align-self-center">
         </div>
-    </p>
     
-</body>
+
 </html>
